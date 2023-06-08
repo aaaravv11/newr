@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url(./fonts/PlayfairDisplay-SemiBold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "SpringinMay";
+    src: url(../fonts/SpringinMay.ttf) format("truetype");
+}
+@font-face {
+    font-family: "MaybeCats";
+    src: url(../fonts/MaybeCats-PersonalUse.otf) format("opentype");
+}
+
+
+@font-face {
+    font-family: "WonderSmileBold_PERSONAL_USE_ONLY";
+    src: url(../fonts/WonderSmileBold_PERSONAL_USE_ONLY.otf) format("opentype") ;
+}
+
+@font-face {
+    font-family: "VECTRO-Bold";
+    src: url(../fonts/VECTRO-Bold.otf) ;
+}
+
+.mySlides {display:none;}
+.parallax-about {
+    /* The image used */
+    background-image: url("../video/wp3493599.jpg");
+
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-featurs {
+    /* The image used */
+    background-image: url("../video/2.jpg");
+
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    
+    background-color: rgb(0, 0, 0);
+    /*background-image: url("./wall.jpg");*/
+    background-size: cover;
+    font-weight: 900;
+    /*overflow-x: hidden;*/
+}
+
+
+.dark-blue {
+    background-color: #4a82bf !important;
+}
+
+
+
+.social-icon {
+    color: white;
+}
+
+.nav-link:hover {
+    color: unset !important;
+}
+
+.social-icon:hover {
+    color: unset;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1>a {
+    display: inline-block;
+}
+h1{
+    /*font-family: "pacifico";*/
+    font-size: 90px;
+    font-family: "SpringinMay";
+    
+    color: rgb(0, 0, 0);
+    
+}
+h2{
+    font-family:"Robus";
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+}
+h3{
+    font-size: 30px;
+    font-family: 'MaybeCats';
+}
+.test1{
+    font-family: 'Roboto', sans-serif;
+   /*text-align: end;
+    
+    justify-content: end;*/
+    padding-right: 20px;
+    
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: rgb(255, 253, 253);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    color: rgb(0, 5, 46);
+  }
+
+  
+
+
+
